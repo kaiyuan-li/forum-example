@@ -6,7 +6,7 @@ brew services start postgres
 createdb forum-db
 ```
 
-``
+```
 knex init
 knex migrate:make user
 knex migrate:latest
